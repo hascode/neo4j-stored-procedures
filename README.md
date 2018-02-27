@@ -24,7 +24,7 @@ cp target/neo4j-stored-procedures-1.0.0.jar target/plugintmp && \
 docker run -td --rm -v $PWD/target/plugintmp:/plugins -p 7474:7474 -p 7687:7687 neo4j:3.3.2
 ```
 
-Please feel free to read the detailed tutorial on [my blog] at: XXXX
+Please feel free to read the detailed tutorial on [my blog]: "[Implementing, Testing and Running Stored Procedures for Neo4j](http://www.hascode.com/2018/02/implementing-testing-and-running-stored-procedures-for-neo4j)".
 
 ---
 
